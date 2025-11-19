@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EcoFriendly Solutions Inc.</title>
+    <meta name="description" content="Contact EcoFriendly Solutions Inc. for inquiries about our sustainable products and consulting services. Get in touch today.">
+    <meta name="keywords" content="contact eco-friendly company, sustainability inquiries, green solutions contact">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <div class="contact-details">
+                <div class="card">
+                    <h3>Contact Information</h3>
+                    <p><strong>Email:</strong> info@ecofriendlysolutions.com</p>
+                    <p><strong>Phone:</strong> +27 123 456 789</p>
+                    <p><strong>Address:</strong> 123 Green Street, Eco Park, Johannesburg, South Africa</p>
+                    <p><strong>Business Hours:</strong> Monday-Friday, 8:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-form-section">
+            <h3>Send us a message</h3>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                    <div class="error-message" id="nameError"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                    <div class="error-message" id="emailError"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" class="form-control">
+                    <div class="error-message" id="phoneError"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject" class="form-control" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="products">Product Information</option>
+                        <option value="consulting">Consulting Services</option>
+                        <option value="partnership">Partnership Opportunity</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="error-message" id="subjectError"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    <div class="error-message" id="messageError"></div>
+                </div>
+                
+                <button type="submit" class="btn">Send Message</button>
+                <div id="formSuccess" class="success-message"></div>
+            </form>
+        </section>
+        
+        <section class="contact-image">
+            <img src="https://www.dhs.gov/sites/default/files/styles/large_card/public/2022-03/21_1103-News-Page-Pictography-Media-Contacts.jpg.webp?itok=zEAGJXKX" alt="Contact EcoFriendly Solutions for sustainable product inquiries">
+        </section>
+    </main>
+    
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 EcoFriendly Solutions Inc.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
